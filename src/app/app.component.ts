@@ -21,7 +21,7 @@ export class AppComponent {
  }
 
  test(item,i){
-   debugger;
+   
 //    item.description=item.description + " Yapıldı";
 //    item.action=true;
 //    this.doneList.push(item);

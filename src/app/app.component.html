@@ -22,7 +22,7 @@
             <table class="table table-striped table-bordered">
               <thead>
                 <tr>
-                  <th *ngIf="!selectedCheckbox"> Tümünü Seç <input type="checkbox" [(ngModel)]="selectedCheckbox" (click)="selectAll()" ></th>
+                  <th *ngIf="!selectedCheckbox"> Tümünü Seç. <input type="checkbox" [(ngModel)]="selectedCheckbox" (click)="selectAll()" ></th>
                   <th *ngIf="selectedCheckbox"> Seçimi Kaldır <input type="checkbox" [(ngModel)]="selectedCheckbox" (click)="deselectAll()" ></th>
                   <th> Description</th>
                   <th>Action </th>
